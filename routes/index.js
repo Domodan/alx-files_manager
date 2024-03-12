@@ -52,7 +52,7 @@ function Routes(app) {
   router.post('/files', (req, res) => {
     FilesController.postUpload(req, res);
   });
-/*
+
   // should retrieve the file document based on the ID
   router.get('/files/:id', (req, res) => {
     FilesController.getShow(req, res);
@@ -63,7 +63,7 @@ function Routes(app) {
   router.get('/files', (req, res) => {
     FilesController.getIndex(req, res);
   });
-
+/*
   // should set isPublic to true on the file document based on the ID
   router.put('/files/:id/publish', (req, res) => {
     FilesController.putPublish(req, res);
