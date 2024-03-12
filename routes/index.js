@@ -28,7 +28,7 @@ function Routes(app) {
   router.post('/users', (req, res) => {
     UsersController.postNew(req, res);
   });
-/*
+
   // should retrieve the user base on the token used
   router.get('/users/me', (req, res) => {
     UsersController.getMe(req, res);
@@ -45,7 +45,7 @@ function Routes(app) {
   router.get('/disconnect', (req, res) => {
     AuthController.getDisconnect(req, res);
   });
-
+/*
   // Files Controller
 
   // should create a new file in DB and in disk
