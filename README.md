@@ -48,3 +48,6 @@
 `tests/`
 > 10. Tests!
 ---
+`utils/, worker.js, controllers/UsersController.js`
+> 11. New user - welcome email
+---
