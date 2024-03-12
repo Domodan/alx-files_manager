@@ -50,7 +50,7 @@ fileQueue.process(async (job) => {
     }
   });
 });
-/*
+
 userQueue.process(async (job) => {
   const { userId } = job.data;
   // Delete bull keys in redis
@@ -70,4 +70,4 @@ userQueue.process(async (job) => {
   if (!user) throw new Error('User not found');
 
   console.log(`Welcome ${user.email}!`);
-});*/
+});
