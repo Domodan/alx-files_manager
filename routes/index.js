@@ -45,14 +45,14 @@ function Routes(app) {
   router.get('/disconnect', (req, res) => {
     AuthController.getDisconnect(req, res);
   });
-/*
+
   // Files Controller
 
   // should create a new file in DB and in disk
   router.post('/files', (req, res) => {
     FilesController.postUpload(req, res);
   });
-
+/*
   // should retrieve the file document based on the ID
   router.get('/files/:id', (req, res) => {
     FilesController.getShow(req, res);
