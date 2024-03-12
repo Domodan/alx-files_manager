@@ -45,12 +45,6 @@
 `utils/, controllers/FilesController.js, worker.js`
 > 9. Image Thumbnails
 ---
-``
-> 
----
-``
-> 
----
-``
-> 
+`tests/`
+> 10. Tests!
 ---
